@@ -6,7 +6,7 @@ const useChartData = () => {
     useEffect(()=>{
         fetch('data.json').then(data => data.json()).then(data => setData(data));
 
-    },[]);
+    },[data]);
 
     return [data, setData] ;
 

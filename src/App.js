@@ -10,6 +10,9 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import LineCharts from './components/LineCharts/LineCharts';
 
+import PieCharts from './components/PieChart/PieCharts';
+
+
 function App() {
   return (
     <>
@@ -27,6 +30,7 @@ function App() {
 
       <Products></Products>
       <LineCharts></LineCharts>
+      <PieCharts></PieCharts>
     
     </>
   );
