@@ -1,0 +1,12 @@
+.nav-link{
+    color: black;
+
+    border-bottom: 2px solid #ddd;
+    margin: 0px 10px;
+}
+
+
+.nav-link:hover{
+    color: rgb(187, 50, 57);
+    border-bottom: 2px solid rgb(187, 50, 57);
+}
