@@ -4,6 +4,14 @@ import "./Header.css";
 import {Link} from 'react-router-dom';
 
 const Header = () => {
+    const routeObjec = [
+        {path:'/home', display:"home" },
+        {path:'/reviews', display:"Reviews" },
+        {path:'/dashboard', display:"Dashboard" },
+        {path:'/blogs', display:"Blogs" },
+        {path:'/about', display:"About" },
+      
+    ]
   return (
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
       <Container>
@@ -12,13 +20,15 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
          
-                <Link className="nav-link" to='/home'>Home</Link>
-                <Link className="nav-link" to='/reviews'>Reviews</Link>
-                <Link className="nav-link" to='/dashboard'>Dashboard</Link>
-                <Link className="nav-link" to='/blogs'>Blogs</Link>
-                <Link className="nav-link" to='/about'>About</Link>
-         
-           
+            {/* {
+                routeObjec.map(rr=> <Link></Link>)
+            } */}
+                <Link className="nav-link" to='/home'>{"Home".toUpperCase()}</Link>
+                <Link className="nav-link" to='/reviews'>{"Reviews".toUpperCase()}</Link>
+                 <Link className="nav-link" to='/dashboard'>{"Dashboard".toUpperCase()}</Link>
+                <Link className="nav-link" to='/blogs'>{"Blogs".toUpperCase()}</Link>
+                <Link className="nav-link" to='/about'>{"About".toUpperCase()}</Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

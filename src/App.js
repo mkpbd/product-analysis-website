@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import Reviews from './components/Reviews/Reviews';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
+import LineCharts from './components/LineCharts/LineCharts';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       </Routes>
 
       <Products></Products>
+      <LineCharts></LineCharts>
     
     </>
   );
