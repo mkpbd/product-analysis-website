@@ -11,6 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 import LineCharts from './components/LineCharts/LineCharts';
 
 import PieCharts from './components/PieChart/PieCharts';
+import BarCharts from './components/BarCharts/BarCharts';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Products></Products>
       <LineCharts></LineCharts>
       <PieCharts></PieCharts>
+      <BarCharts></BarCharts>
     
     </>
   );
