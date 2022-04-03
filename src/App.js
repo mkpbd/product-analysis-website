@@ -12,6 +12,7 @@ import LineCharts from './components/LineCharts/LineCharts';
 
 import PieCharts from './components/PieChart/PieCharts';
 import BarCharts from './components/BarCharts/BarCharts';
+import StackedAreaCharts from './components/StackedAreaCharts/StackedAreaCharts';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <LineCharts></LineCharts>
       <PieCharts></PieCharts>
       <BarCharts></BarCharts>
+      <StackedAreaCharts></StackedAreaCharts>
     
     </>
   );
