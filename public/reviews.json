@@ -1,0 +1,52 @@
+[
+    {
+        "Id":1,
+        "comment":"A great drone however I was lied to by a rep that said it came with 3 batteries after I asked specifically what all came with this specific drone pckage. I contacted after delivery about batteries and rep said I would be contacted within 24 hrs with a solution. 3 days later nothin but crickets",
+        "image": "images/review-1.webp",
+        "rating":"4.00",
+        "name": "Jim Fisher"
+    }
+    ,
+    {
+        "Id":2,
+        "comment":"The Autel Evo is a great Aircraft (drone) the 4  K Camera is better than my DJI Mavic Pro. The controller is very responsive to the drone. The video feed is good and you can travel far, It folds up and you could put it in your own bag or purchase one from Autel. A very good investment in my drone collection. It is my go to.",
+        "image": "images/review-2.webp",
+        "rating":"5.00",
+        "name": "Astro Bob"
+    },
+
+    {
+        "Id":3,
+        "comment":"Image is great.  Really goes the distance.    Navigation is  if you don't adjust from the default settings.",
+        "image": "images/review-2.jpg",
+        "rating":"5.00",
+        "name": "Michael Kan "
+    },
+
+    {
+        "Id":4,
+        "comment":"The Autel Evo is a great Aircraft (drone) the 4  K Camera is better than my DJI Mavic Pro. The controller is very responsive to the drone. The video feed is good and you can travel far, It folds up and you could put it in your own bag or purchase one from Autel.",
+        "image": "images/review-3.jpg",
+        "rating":"5.00",
+        "name": "Jon Buder"
+    },
+    {
+        "Id":5,
+        "comment":"Great little drone for the price. It takes excellent quality pictures. The video is great too, but a little shaky because it has no gimbles. It bounces up and down a lot as you move forward. Set up is a little complicated, having to be calibrated before each use, but calibration becomes pretty routine after a few times. The reason for 4 stars instead of 5 is that the battery takes a long time to charge, and I cannot find a spare battery to purchase anywhere. I have searched the internet and have not found a compatible battery. Overall I am happy with my purchase.",
+        "image": "images/review-4.jpg",
+        "rating":"4.00",
+        "name": "Matthew Humphries"
+    },
+
+    {
+        "Id":6,
+        "comment":"I purchased it a few months ago, this is my first drone  and I've felt very comfortable using it since day one, it has very good wind ressistance and the fact that the remote does not require batteries is a plus.",
+        "image": "images/review-5.jpg",
+        "rating":"4.00",
+        "name": "Matho jon"
+    }
+
+
+
+
+]
