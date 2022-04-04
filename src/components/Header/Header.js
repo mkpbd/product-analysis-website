@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 const Header = () => {
     const routeObjec = [
@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
       <Container>
-        <Navbar.Brand href="#home">Drone App</Navbar.Brand>
+        <Navbar.Brand> <Link to='/home' style={{textDecoration:"none"}}> Drone App </Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-dark" />
         
         <Navbar.Collapse id="responsive-navbar-nav">

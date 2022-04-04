@@ -22,7 +22,7 @@ const Products = () => {
                             There is an expansion of munitions being equipped on military drones and different munitions are being tested on drones,” Gettinger says. “For a long time, we had the archetypal Predator drone, but the field of armed drones has diversified to include smaller and larger aircraft, so the family of munitions has also diversified. We see more variety in the types of munitions on them; we’ll see further automation demonstrated in the loitering munitions
                             </p>
 
-                            <Button variant="secondary" onClick={()=> navigate('/reviews')}>View More</Button>
+                            <Button variant="secondary" onClick={()=> navigate('/reviews')}>View Demo</Button>
 
                     </Col>
 
