@@ -8,7 +8,7 @@ const PieCharts = () => {
     const [data1, setData2] = useChartData();
     return (
         <div>
-    <h2 className='text-primary'>Investment VS Revenue</h2>
+    <h2 className='text-primary text-center my-3'>Investment VS Revenue</h2>
 {/* <ResponsiveContainer width="100%" height="100%"> */}
 <PieChart width={400} height={400}>
       <Pie

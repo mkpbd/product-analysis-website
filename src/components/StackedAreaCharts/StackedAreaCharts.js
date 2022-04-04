@@ -7,7 +7,7 @@ const StackedAreaCharts = () => {
     const [data] = useChartData();
     return (
         <div>
-            <h2>chart</h2>
+            <h2 className='text-primary text-center my-3'>Investment VS Revenue</h2>
             {/* <ResponsiveContainer width="100%" height="100%"> */}
         <AreaChart
           width={500}

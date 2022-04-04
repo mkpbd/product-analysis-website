@@ -8,15 +8,15 @@ const LineCharts = () => {
 
     
     return (
-        <>
-            <h2 className='text-primary text-center'>MONTHLY WISE SELL</h2>
-        <LineChart width={600} height={300} data={data}>
+        <div>
+            <h2 className='text-primary text-center my-3'>MONTHLY WISE SELL</h2>
+        <LineChart width={500} height={300} data={data}>
     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
     <CartesianGrid stroke="#ccc" />
     <XAxis dataKey="month" />
     <YAxis/>
   </LineChart>
-  </>
+  </div>
     );
 
 };

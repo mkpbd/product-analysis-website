@@ -7,7 +7,7 @@ const BarCharts = () => {
     const[data, setData] = useChartData();
     return (
         <div>
-            <h2>Name </h2>
+            <h2 className='text-primary text-center my-3'>Investment VS Revenue </h2>
             {/* <ResponsiveContainer width="100%" height="100%"> */}
         <BarChart
           width={500}
