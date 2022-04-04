@@ -3,6 +3,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
 import {Link, NavLink} from 'react-router-dom';
 
+import CustomLink from '../CustomLink/CustomLink';
+
 const Header = () => {
     const routeObjec = [
         {path:'/home', display:"home" },
@@ -24,11 +26,11 @@ const Header = () => {
             {/* {
                 routeObjec.map(rr=> <Link></Link>)
             } */}
-                <Link className="nav-link" to='/home'>{"Home".toUpperCase()}</Link>
-                <Link className="nav-link" to='/reviews'>{"Reviews".toUpperCase()}</Link>
-                 <Link className="nav-link" to='/dashboard'>{"Dashboard".toUpperCase()}</Link>
-                <Link className="nav-link" to='/blogs'>{"Blogs".toUpperCase()}</Link>
-                <Link className="nav-link" to='/about'>{"About".toUpperCase()}</Link>
+                <CustomLink className="nav-link" to='/home'>{"Home".toUpperCase()}</CustomLink>
+                <CustomLink className="nav-link" to='/reviews'>{"Reviews".toUpperCase()}</CustomLink>
+                 <CustomLink className="nav-link" to='/dashboard'>{"Dashboard".toUpperCase()}</CustomLink>
+                <CustomLink className="nav-link" to='/blogs'>{"Blogs".toUpperCase()}</CustomLink>
+                <CustomLink className="nav-link" to='/about'>{"About".toUpperCase()}</CustomLink>
 
           </Nav>
         </Navbar.Collapse>
