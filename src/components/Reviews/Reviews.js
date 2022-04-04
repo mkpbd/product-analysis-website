@@ -18,8 +18,8 @@ const Reviews = () => {
        
         {data.map((da) => (
           <Col sm={6} className='my-3 mt-5' key={da.Id}>
-            <Card border="primary" className="h-100">
-              <Card.Header>
+            <Card border="secondary" className="h-100">
+              <Card.Header className="bg-white border-0">
                   <img src={da.image} alt="" />
               </Card.Header>
               <Card.Body className="mt-5">
@@ -27,6 +27,7 @@ const Reviews = () => {
                 <Card.Text>
                  {da.comment}
                 </Card.Text>
+                <p>Rating: {da.rating}</p>
               </Card.Body>
             </Card>
           </Col>

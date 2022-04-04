@@ -2,6 +2,7 @@
 import React from 'react';
 import { Col, Container, Row ,Button} from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import ShortReview from '../ShortReview/ShortReview';
 
 const Products = () => {
     let navigate = useNavigate();
@@ -23,6 +24,14 @@ const Products = () => {
 
                             <Button variant="secondary" onClick={()=> navigate('/reviews')}>View More</Button>
 
+                    </Col>
+
+
+                </Row>
+
+                <Row>
+                    <Col>
+                        <ShortReview></ShortReview>
                     </Col>
                 </Row>
             </Container>
