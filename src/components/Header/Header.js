@@ -15,8 +15,9 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Brand href="#home">Drone App</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-dark" />
+        
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
          
