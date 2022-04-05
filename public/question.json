@@ -1,0 +1,17 @@
+
+[
+    {
+        "question": "What is context api",
+        "Answer": "Context Provides a way to pass data through componet tree without having to pass props down manually at every level. In a typical React application data is passed top to down vai props but such usage can be cumbersome for certain types of props that are required by many components within an application. Context is desinged to share data that can be considered 'global' for a tree of React components such as the crrent authenticated user theme or perferred language. Context is primarily use when some data needs to be accessible by may components at differnt nesting leaves. Apply is sparingly because it makes componet reuse more difficault. If we only want ot avoid passing some props through many laves compponet composition is often a smpler solution than context. creates a context object. When React renders a component that subscribes to this context object it well read the current context value from the closest matching Provider abobe it in the tree. the defaultValue argument is only used when a component does not have matching Provider above it in the tree. This default value can be helpful for testing components is isloation wthout wrapping them"
+    },
+    {
+        "question": "Difference between block elements and inline elements",
+        "Answer": "Every HTML element has a default disply value, depending on what type of eleemnt it is. There are two display values: block and inline  Block- level Ementts always start on a new line and the browsers automaticlally andds some space a margin before and after the element. A block level element always takes up the full width avaivalbe (stretche out to the left and right as far as it can). Two commonly used block elements are <p> and <div> the <p> elements defines a paragraph in an HTML docutment. The <div> element defines a division or a section in an HTML document.  Inlien elements An inline element dose nto start on a new line. an inline element only takes up as much width as necessary the <span> element is an inline container used to mark up a part of a text or a part of a doucment."
+    },
+    {
+        "question": "What Is Semantic HTML?",
+        "Answer": "Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For Example a <p> tag indicates that the enclosed text is a paragraph. this is both semantic and presentational because people know whtat paragraphs are  and browsers know hto to diplay theme. On othe flip side of theis equeation tags such as <b> and <i> are not semmantic. They define only how the text should look <bold or italic> and do not provide any additional meaning to the markup.  Header tags <h1> throuh <h6>  (blockquote) (code) (em)  there are many more semantic HTMML tags to use as you build a standards compliant website"
+    }
+
+
+]

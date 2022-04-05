@@ -9,6 +9,7 @@ import Reviews from './components/Reviews/Reviews';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Dashboard from './components/Deshboard/Dashboard';
+import Blogs from './components/Blogs/Blogs';
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <Header></Header>
       <Routes>
          <Route path='/' element={<Home></Home>}></Route>
-         <Route path='/blogs' element={<Home></Home>}></Route>
+         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
          <Route path='/Home' element={<Home></Home>}></Route>
          <Route path='/about' element={<About></About>}></Route>
          <Route path='/reviews' element={<Reviews></Reviews>}></Route>
