@@ -2,6 +2,10 @@
 
 GitHub Link [https://github.com/programming-hero-web-course-4/product-analysis-website-mostofakamalpassa.git]( https://github.com/programming-hero-web-course-4/product-analysis-website-mostofakamalpassa.git).
 
+Web Site link:  [https://mostofa-drone.netlify.app/]( https://mostofa-drone.netlify.app/).
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -16,24 +20,18 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `Project Description`
+### Project Description
     * Drone  App
     * User Review 
     * Blogs
     * Product section
+    * about us
+    <ul>
+        <li> react route dom </li>
+        <li> Axios  </li>
+        <li> bootsrapt  </li>
+    </ul>
     
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**

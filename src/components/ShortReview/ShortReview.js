@@ -12,8 +12,8 @@ const ShortReview = () => {
      // console.log(data)
   }, [data]);
   return (
-    <Container className="text-center my-5">
-      <h2>Customer Reviews</h2>
+    <Container className="text-center my-5 shadow p-5 bg-body rounded">
+      <h2 className="my-3 text-secondary">Customer Reviews</h2>
       <Row xs={1} md={2} className="g-4 mb-4 pb-5">
       {data.map((da) => (
           <Col sm={6} className="my-3 mt-5" key={da.Id}>
