@@ -13,7 +13,7 @@ const Blogs = () => {
         <Container className='my-5 py-5 bg-light'>
             <Row>
                 {
-                    data.map(da => (<Col sm={10} className="offset-1">
+                    data.map(da => (<Col sm={10} className="offset-1" key={da.question}>
                             <h2 className='bg-secondary text-white p-2 my-3'>{da.question}</h2>
                             <p className='text-dark'>
                                 {da.Answer}
