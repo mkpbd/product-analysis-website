@@ -4,7 +4,7 @@ GitHub Link [https://github.com/programming-hero-web-course-4/product-analysis-w
 
 Web Site link:  [https://mostofa-drone.netlify.app/]( https://mostofa-drone.netlify.app/).
 
-## Project Description
+
     - Drone  App
     - User Review 
     * Blogs
@@ -12,8 +12,6 @@ Web Site link:  [https://mostofa-drone.netlify.app/]( https://mostofa-drone.netl
     * about us
     * Product promotion
     
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
