@@ -11,7 +11,7 @@ const Products = () => {
             <Container  className='px-auto mx-auto my-5'>
                 <Row className='shadow p-5 bg-body rounded'>
                     <Col className='col-sm-6'>
-                       <img src={'./images/drone-1.webp'} alt="" />
+                       <img src={'./images/drone-1.webp'} alt="" className='img-fluid'/>
                     </Col>
                     <Col className='col-sm-6'>
                        <div className='d-flex flex-column justify-content-center h-100'>

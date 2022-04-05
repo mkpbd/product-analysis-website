@@ -4,34 +4,13 @@ GitHub Link [https://github.com/programming-hero-web-course-4/product-analysis-w
 
 Web Site link:  [https://mostofa-drone.netlify.app/]( https://mostofa-drone.netlify.app/).
 
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-
-### Project Description
+## Project Description
     * Drone  App
     * User Review 
     * Blogs
     * Product section
     * about us
-    <ul>
-        <li> react route dom </li>
-        <li> Axios  </li>
-        <li> bootsrapt  </li>
-    </ul>
+    * Product promotion 
     
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
