@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
 
 const NotFound = () => {
-    return (
-        <div>
-            <h2>Not Found</h2>
+  return (
+    <div className="container py-5 my-5">
+      <div className="row">
+        <div className="col-sm-8 offset-2 my-4">
+          <img
+            className="d-block text-center"
+            src="images/404.png"
+            alt=""
+          />
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default NotFound;
