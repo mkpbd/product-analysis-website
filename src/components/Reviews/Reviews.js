@@ -24,7 +24,7 @@ const Reviews = () => {
                 <img src={da.image} alt="" />
               </Card.Header>
               <Card.Body className="mt-5">
-                <Card.Text>{da.comment}</Card.Text>
+                <Card.Text className="py-5">{da.comment}</Card.Text>
                 <div className="d-flex align-items-center"> <span>
                 Rating: 
                 </span>
