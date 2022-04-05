@@ -8,4 +8,16 @@ Web Site link:  [https://mostofa-drone.netlify.app/]( https://mostofa-drone.netl
 - Customer Reviews
 - Blogs
 - About us
-- Demo
+- Demo Video
+- Customer Rating
+
+
+# Use this project 
+- React js
+- Fontawoesome
+- React Bootstrap
+- React Router dom
+- google font
+- Fake Json data
+- Custom hooks
+- And ETC
