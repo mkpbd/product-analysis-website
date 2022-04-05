@@ -5,12 +5,12 @@ GitHub Link [https://github.com/programming-hero-web-course-4/product-analysis-w
 Web Site link:  [https://mostofa-drone.netlify.app/]( https://mostofa-drone.netlify.app/).
 
 ## Project Description
-    * Drone  App
-    * User Review 
+    - Drone  App
+    - User Review 
     * Blogs
     * Product section
     * about us
-    * Product promotion 
+    * Product promotion
     
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**

@@ -1,0 +1,58 @@
+1. header (navigation option thakbe) 
+	react router use korte hobe  
+	Home Reviews, Deshboard Blogs about   -> (done)
+
+2.  review section  
+	( *** head <h1>
+	*** paragaph <p>
+	*** button 
+	*** image )  -> (Done)
+
+
+3. customer reviews   (Done)
+	*** head
+	*** reviews  route page
+	name,
+	reviews parargraph
+	reting
+	images  
+
+4.     6 images (Done)
+
+5. 3 revies show home page  (Done)
+6. Reviews page minimum 6 review  (Done)
+ 
+7. deshbord chart js  (Done)
+	
+
+
+**************** bonus *************
+
+1 what is context api (Done)
+
+2. symatice tag  (Done)
+
+3. blog element and inline element (Done)
+
+4. deshborad acitve link (Done)
+
+5. conditianl rendaring (Done)
+6. custom hooks   (Done)
+
+
+
+
+
+-------------------- use font for my web site ---------
+
+Poppins
+
+
+------------ color ------------
+
+rgb(187, 50, 57)
+
+rgb(34, 34, 34)
+
+rgb(120, 120, 120)
+
